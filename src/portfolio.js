@@ -7,7 +7,7 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Alexander Goebel",
+  username: "Xander Goebel",
   title: "Hello, I'm Xander",
   subTitle: emoji("A Software Developer having an experience with Java / C / Processing / and some OS & processor-level experience."),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
@@ -18,12 +18,9 @@ const greeting = {
 const socialMediaLinks = {
 
   github: "https://github.com/Spellbreeze",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "xandergoebel10@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  linkedin: "https://www.linkedin.com/in/alexander-goebel-b1007b1b7/",
+  gmail: "xandergoebel1@gmail.com",
+  facebook: "https://www.facebook.com/profile.php?id=100011082128644"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -175,7 +172,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "Spellbreeze", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
@@ -284,8 +281,8 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1-4046434580",
+  email_address: "xandergoebel1@gmail.com"
 };
 
 //Twitter Section
