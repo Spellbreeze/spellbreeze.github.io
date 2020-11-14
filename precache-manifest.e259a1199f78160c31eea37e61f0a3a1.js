@@ -1,43 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3e85a402031d31fd3beb1e0ae68b64c",
+    "revision": "c797068f826806a167d286e4447f7792",
     "url": "/index.html"
   },
   {
-    "revision": "b8ba4743d458a90fa900",
-    "url": "/static/css/3.00373544.chunk.css"
+    "revision": "69df2900993749474eb3",
+    "url": "/static/css/3.3a26ebde.chunk.css"
   },
   {
-    "revision": "c99f2a4889f2c7ca865b",
-    "url": "/static/css/4.a922a401.chunk.css"
+    "revision": "23f71004a47a05b4ae0a",
+    "url": "/static/css/4.ee2a0142.chunk.css"
   },
   {
-    "revision": "5521762ab92dbe27507b",
-    "url": "/static/css/main.bd4e58e4.chunk.css"
+    "revision": "f249327cb7dfd9629193",
+    "url": "/static/css/main.9fb36056.chunk.css"
   },
   {
-    "revision": "c6364230ca316c71aef8",
-    "url": "/static/js/2.be6876a6.chunk.js"
+    "revision": "194820eca33456aae914",
+    "url": "/static/js/2.585c948f.chunk.js"
   },
   {
-    "revision": "b8ba4743d458a90fa900",
-    "url": "/static/js/3.4aecea26.chunk.js"
+    "revision": "69df2900993749474eb3",
+    "url": "/static/js/3.f64065de.chunk.js"
   },
   {
-    "revision": "c99f2a4889f2c7ca865b",
-    "url": "/static/js/4.10bb0efa.chunk.js"
+    "revision": "23f71004a47a05b4ae0a",
+    "url": "/static/js/4.303f0009.chunk.js"
   },
   {
-    "revision": "5521762ab92dbe27507b",
-    "url": "/static/js/main.0c8b9d18.chunk.js"
+    "revision": "f249327cb7dfd9629193",
+    "url": "/static/js/main.5fb163cb.chunk.js"
   },
   {
-    "revision": "bf9b0fd37f9d6267b2ac",
-    "url": "/static/js/runtime-main.7adb2dae.js"
+    "revision": "c167bbb418642293daf4",
+    "url": "/static/js/runtime-main.75211553.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/static/media/Agustina.21f233e1.woff"
+  },
+  {
+    "revision": "178cbe4a5ddd5324c844fcf7108d344f",
+    "url": "/static/media/AlexanderGoebel_Resume.178cbe4a.pdf"
   },
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
@@ -76,8 +80,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/googleAssistantLogo.e79c6392.webp"
   },
   {
-    "revision": "83a05b10639d238bd8c5bbab279ab911",
-    "url": "/static/media/harvardLogo.83a05b10.png"
+    "revision": "6ee07e63be832ade16472848ba6751c9",
+    "url": "/static/media/gt-seal.6ee07e63.png"
+  },
+  {
+    "revision": "2584224fe6cecab3ef145170d727021c",
+    "url": "/static/media/gt-seal_300x300.2584224f.png"
+  },
+  {
+    "revision": "a3e744cb374e8a995fbe68fbb0fb9fd4",
+    "url": "/static/media/gt-seal_96x96.a3e744cb.png"
   },
   {
     "revision": "b05ae5b575a7e1125610944dc152c35f",
@@ -94,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "829ad0a1deef4d7295adfecdf12df2be",
     "url": "/static/media/nextuLogo.829ad0a1.webp"
+  },
+  {
+    "revision": "d28e81c0094ceda4982008748a42d9e0",
+    "url": "/static/media/processing3-logo.d28e81c0.png"
   },
   {
     "revision": "c1a95f7335cbfb730b937e19e8830a53",
@@ -124,11 +140,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/stanfordLogo.3b758ef5.png"
   },
   {
-    "revision": "13780cdd0144cacdef25486e2c2503f8",
-    "url": "/static/media/talksCardBack.13780cdd.svg"
+    "revision": "39eff4a91b01e00a32cb78f3797eec88",
+    "url": "/static/media/talksCardBack.39eff4a9.svg"
   },
   {
-    "revision": "b48e86c9a956d3a3a32ca4a5ae05ddc7",
-    "url": "/static/media/talksCardBackAlt.b48e86c9.svg"
+    "revision": "7f0feeedda08cf7d68593454bc2e82b5",
+    "url": "/static/media/talksCardBackAlt.7f0feeed.svg"
   }
 ]);
