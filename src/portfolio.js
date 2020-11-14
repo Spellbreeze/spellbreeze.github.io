@@ -9,8 +9,8 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Xander Goebel",
   title: "Hello, I'm Xander",
-  subTitle: emoji("A Software Developer having an experience with Java / C / Processing / and some OS & processor-level experience."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  subTitle: emoji("A Computer Science Major with threads in Systems & Architecture and Media"),
+  resumeLink: require("./assets/documents/AlexanderGoebel_Resume.pdf")
 };
 
 // Your Social Media Link
@@ -27,12 +27,12 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I do",
+  subTitle: "Systems & Architecture and Media with a focus in Graphics, Sound, and Games.",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
+    /*emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")*/
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -40,56 +40,21 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "C",
+      fontAwesomeClassname: "far fa-file-code"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+        skillName: "Assembly",
+        fontAwesomeClassname: "fas fa-memory"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+        skillName: "Processing",
+        fontAwesomeClassname: "fab fa-java"
+        
     }
   ]
 };
@@ -101,13 +66,13 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Georgia Tech",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/gt-seal_300x300.png"),
       subHeader: "Bachelors of Science in Computer Science",
       duration: "June 2019 -",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "TA for CS 2340: Objects and Design"//,
+        //"Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     }
   ]
@@ -119,17 +84,17 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "20%"  //Insert relative proficiency in percentage
+      Stack: "C Programming Language",  //Insert stack or technology you have experience in
+      progressPercentage: "60%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Java",
       progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "80%"
-    }
+      Stack: "Assembly",
+      progressPercentage: "40%"
+    },
   ]
 };
 
@@ -140,16 +105,16 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "Teacher's Assistant",
+      company: "Georgia Institute of Technology",
+      companylogo: require("./assets/images/gt-seal_300x300.png"),
+      date: "August 2020 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
-    },
+    }/*,
     {
       role: "Front-End Developer",
       company: "Quora",
@@ -163,7 +128,7 @@ const workExperiences = {
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+    },*/
   ]
 };
 
@@ -179,7 +144,7 @@ const openSource = {
 
 // Some Big Projects You have worked with your company
 
-const bigProjects = {
+/*const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
@@ -192,7 +157,7 @@ const bigProjects = {
       link: "http://nextu.se/"
     }
   ]
-};
+};*/
 
 // Your Achievement Section Include Your Certification Talks and More
 
@@ -292,4 +257,4 @@ const twitterDetails = {
   userName : "twitter"//Replace "twitter" with your twitter username without @
 
 };
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, /*bigProjects,*/ achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
