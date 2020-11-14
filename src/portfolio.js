@@ -8,7 +8,7 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Xander Goebel",
-  title: "Hello, I'm Xander",
+  title: "Hi, I'm Xander",
   subTitle: emoji("A Computer Science Major with threads in Systems & Architecture and Media"),
   resumeLink: require("./assets/documents/AlexanderGoebel_Resume.pdf")
 };
@@ -40,7 +40,7 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "java",
+      skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
     },
     {
@@ -53,7 +53,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
         skillName: "Processing",
-        fontAwesomeClassname: "fab fa-java"
+        fontAwesomeClassname: "fab fa-product-hunt"
         
     }
   ]
@@ -65,7 +65,7 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Georgia Tech",
+      schoolName: "Georgia Institute of Technology",
       logo: require("./assets/images/gt-seal_300x300.png"),
       subHeader: "Bachelors of Science in Computer Science",
       duration: "June 2019 -",
@@ -109,10 +109,11 @@ const workExperiences = {
       company: "Georgia Institute of Technology",
       companylogo: require("./assets/images/gt-seal_300x300.png"),
       date: "August 2020 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "TA'd for CS 2340: Objects and Design, a project-based course that teaches the Unified Process and Agile Methodology",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Demoed student projects and held office hours",
+        "Reviewed exams and assignments",
+        "Wrote a guide to FXML for students"
       ]
     }/*,
     {
@@ -144,7 +145,7 @@ const openSource = {
 
 // Some Big Projects You have worked with your company
 
-/*const bigProjects = {
+const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
@@ -157,7 +158,7 @@ const openSource = {
       link: "http://nextu.se/"
     }
   ]
-};*/
+};
 
 // Your Achievement Section Include Your Certification Talks and More
 
@@ -247,7 +248,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+1-4046434580",
-  email_address: "xandergoebel1@gmail.com"
+  email_address: "xandergoebel1@gmail.com",
 };
 
 //Twitter Section
@@ -257,4 +258,4 @@ const twitterDetails = {
   userName : "twitter"//Replace "twitter" with your twitter username without @
 
 };
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, /*bigProjects,*/ achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
