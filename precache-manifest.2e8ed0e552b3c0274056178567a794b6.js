@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c797068f826806a167d286e4447f7792",
+    "revision": "344d1f51cebebb53ac38cd8dc16d7a3a",
     "url": "/index.html"
   },
   {
-    "revision": "69df2900993749474eb3",
+    "revision": "185f76195bf7382a3913",
     "url": "/static/css/3.3a26ebde.chunk.css"
   },
   {
-    "revision": "23f71004a47a05b4ae0a",
+    "revision": "4daa5bc754d607e139dc",
     "url": "/static/css/4.ee2a0142.chunk.css"
   },
   {
-    "revision": "f249327cb7dfd9629193",
+    "revision": "ee993f837affd2094473",
     "url": "/static/css/main.9fb36056.chunk.css"
   },
   {
-    "revision": "194820eca33456aae914",
-    "url": "/static/js/2.585c948f.chunk.js"
+    "revision": "16c72b1d2b1fa95ddc01",
+    "url": "/static/js/2.157024fd.chunk.js"
   },
   {
-    "revision": "69df2900993749474eb3",
-    "url": "/static/js/3.f64065de.chunk.js"
+    "revision": "185f76195bf7382a3913",
+    "url": "/static/js/3.d94a2a4c.chunk.js"
   },
   {
-    "revision": "23f71004a47a05b4ae0a",
-    "url": "/static/js/4.303f0009.chunk.js"
+    "revision": "4daa5bc754d607e139dc",
+    "url": "/static/js/4.e5dae473.chunk.js"
   },
   {
-    "revision": "f249327cb7dfd9629193",
-    "url": "/static/js/main.5fb163cb.chunk.js"
+    "revision": "ee993f837affd2094473",
+    "url": "/static/js/main.a4b64943.chunk.js"
   },
   {
-    "revision": "c167bbb418642293daf4",
-    "url": "/static/js/runtime-main.75211553.js"
+    "revision": "d61a5e4a1a09ab2e9eb5",
+    "url": "/static/js/runtime-main.9eb5aaa0.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -64,8 +64,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/contactMailDark.51cf7192.svg"
   },
   {
+    "revision": "445450fe5b10e77a2bb295473db9b4a9",
+    "url": "/static/media/developerActivity.445450fe.svg"
+  },
+  {
     "revision": "59389695208d7454c6607bed51ed4316",
-    "url": "/static/media/developerActivity.59389695.svg"
+    "url": "/static/media/developerActivity_old.59389695.svg"
   },
   {
     "revision": "8ddf76a14a2e3ad3ba62b46d49a75a74",
