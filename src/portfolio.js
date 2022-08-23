@@ -109,20 +109,38 @@ const workExperiences = {
       company: "Georgia Institute of Technology",
       companylogo: require("./assets/images/gt-seal_300x300.png"),
       date: "August 2020 – Present",
-      desc: "TA'd for CS 2340: Objects and Design, a project-based course that teaches the Unified Process and Agile Methodology",
+      desc: "TA'd for CS 2340: Objects and Design, a project-based course that teaches the Unified Process and Agile Methodology.",
       descBullets: [
         "Demoed student projects and held office hours",
         "Reviewed exams and assignments",
         "Wrote a guide to FXML for students"
       ]
-    }/*,
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
+    {
+      role: "Software Engineer Intern",
+      company: "Schlumberger",
+      companylogo: require("./assets/images/schlumberger.jpg"),
+      date: "May 2022 – August 2022",
+      desc: "Developed a dashboard in Power BI to display cloud-stored data from shop and field test results.",
+      descBullets: [
+        "Developed user interface for data visualization in Power BI.",
+        "Developed Google Cloud Services integration and data synchronization.",
+        "Collaborated across multiple development groups.",
+        "Completed deliverables ahead of schedule, while incorporating additional change requests."
+      ]
+    },
+    {
+      role: "Embedded Software Engineer Intern",
+      company: "Schlumberger",
+      companylogo: require("./assets/images/schlumberger.jpg"),
+      date: "May 2021 – August 2021",
+      desc: "Developed front- and back-end for user interface for testing of a calibration tool.",
+      descBullets: [
+        "Developed a GUI tool for automated testing and calibration of a board.",
+        "Developed statistics collection for a sensor and resolved issues with statistics collection with related boards and sensors.",
+        "Increased calibration efficency for project-focused tool to a third of previously required time."
+      ]
+    }/*,
     {
       role: "Software Engineer Intern",
       company: "Airbnb",
